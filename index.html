@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHATBOT</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Escribe lo que sea :)</h1>
+        <div id="todo">
+            <div id="dere"></div>
+            <div id="iz"></div>
+        </div>
+        <input type="text" id="entrada" onkeydown="if(event.keyCode == 13){ charlar() }" placeholder="Escribe algo :)" />
+        <button onclick=" charlar() "><i class="fa fa-paper-plane">Enviar</i></button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
